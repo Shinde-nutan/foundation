@@ -24,3 +24,24 @@
 
 **The Table** Name the table for managing master list of product types.
 **The Relationships** Name related tables.
+
+The Table Name that contains the list of the product types – 
+- ProductType 
+
+The main type in this table include – 
+- SERVICE
+- GOOD
+- RAW_MATERIAL
+- FINISHED_GOOD
+- DIGITAL_GOOD
+- FINDIG_GOOD
+- SERVICE_PRODUCT
+- SUBASSEMBLY
+- AGGREGATED
+
+The Relations with this table include –
+- Parent –
+    - ProductType
+    - Product
+- Child –
+    - ProductTypeAttr
